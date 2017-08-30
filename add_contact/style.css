@@ -1,0 +1,27 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  /*outline: dotted red;*/
+}
+table{
+  width: 400px;
+  height: 20px;
+  border: 2px solid black;
+}
+tr{
+  height: 20px;
+  border: 2px solid black;
+}
+th{
+  margin: 5px;
+  height: 20px;
+}
+td{
+  margin: 5px;
+  height: 20px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}

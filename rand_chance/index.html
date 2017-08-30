@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rand_Chance</title>
+    <script type="text/javascript">
+      function slots() {
+        var win = 35;
+
+        for (var i = 5; i >= 0; i--) {
+          console.log(i);
+          var spin = Math.floor(Math.random()*100);
+          var winAmount = Math.floor((Math.random() * 100) + 50);
+          if (spin === win) {
+            i = winAmount + i
+            console.log("You win! Here's", winAmount, "coins. You now have", i, "coins");
+          }
+          else {
+            console.log("you lost and now have", i, "coins");
+          }
+        }
+      }
+      slots();
+    </script>
+  </head>
+  <body>
+    <h1>Check console</h1>
+  </body>
+</html>

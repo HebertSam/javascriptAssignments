@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: 1px dotted red;
+}
+body{
+  width: 1000px;
+  display: flex;
+}
+.poke{
+  width: 500px
+}
+.my_poke{
+  width: 300px;
+  height: 400px;
+  margin-left: 500px;
+  position: fixed;
+
+}

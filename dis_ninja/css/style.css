@@ -1,0 +1,12 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.section{
+  display: flex;
+}
+.section img{
+  justify-content: space-between;
+  width: auto;
+  height: 200px;
+}
